@@ -1,0 +1,9 @@
+# mount fstype  device                  [device2]   [fstype2]   [fsoptions]         [fsoptions2]
+
+/boot       bml     boot	  	
+/cache      ext2    /dev/block/stl10        NULL        rfs         NULL                llw,check=no,nosuid,nodev	  	
+/data       ext2    /dev/block/stl11        NULL        rfs         NULL                llw,check=no,nosuid,nodev	  	
+/recovery   bml     recovery	  	
+/sdcard     vfat    /dev/block/mmcblk0p1    /dev/block/mmcblk0	  	
+/system     ext2    /dev/block/stl9        NULL        rfs         NULL                llw,check=no	  	
+/sd-ext     ext2    /dev/block/mmcblk0p2

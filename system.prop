@@ -1,0 +1,7 @@
+#
+# system.prop for GT-S5570I
+#
+
+rild.libpath=/system/lib/libbrcm_ril.so
+rild.libargs=-d /dev/smd0
+
